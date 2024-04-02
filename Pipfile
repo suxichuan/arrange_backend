@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+python-dotenv = "*"
+holidays = "*"
+chinese-calendar = "*"
+pymysql = "*"
+flask-sqlalchemy = "*"
+flask-script = "==2.0.6"
+flask-migrate = "==2.7.0"
+pip = "*"
+install = "*"
+
+[dev-packages]
+watchdog = "*"
+
+[requires]
+python_version = "3.11"
